@@ -7,13 +7,20 @@ title: Cypress Documentation
 subtitle: Testing, the way it should be.
 description: Cypress is a test engine that runs unit and integration tests in your browser. It makes it easy to write and debug web application tests.
 author: Cypress.io
-language: en
+language:
+  - en
+  - he
+locale: en
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+  lang: en
 
 logo: img/logo.png
 github: cypress-io/cypress
